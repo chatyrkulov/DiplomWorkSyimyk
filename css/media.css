@@ -1,0 +1,673 @@
+@media(max-width: 992px){
+	.topHeader .logo{
+		display: none;
+	}
+	.empty{
+		display: none;
+	}
+	.headerContact .col-3{
+		width: 33.33333333%;
+	}
+	.delimiter{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		text-align: right;
+	}
+	.logoMini{
+		display: block;/*
+		margin-right: 10rem;*/
+	}
+	.logoMini span{
+		color: #BFD2F8;
+	}
+	.delimiter form{
+		flex-direction: row-reverse;
+		margin-bottom: 0.5rem;
+	}
+	.sliderDocBg{
+		width: 999px;
+		height: 300px;
+		background-size: 770px;
+		background-position-x: 2rem;
+	}
+	.sliderDocTitle {
+    	top: 2rem;
+    	left: 1rem;
+	}
+	.sliderDocTitle p{
+		font-size: 20px;
+	}
+	.textSlider h2 {
+    	font-size: 32px;
+    	line-height: 32px;
+    	letter-spacing: 0.1rem;
+	}
+	.btnSlider {
+    	padding: 0.3rem 1rem;
+    	font-size: 18px;
+    	margin-top: 0.5rem;
+	}
+	.sliderDocCard {
+		left: 4rem;
+		top: -1.5rem;
+	}
+	.card0, .card1, .card2 {
+    	padding: 2px 8px;
+    	font-size: 14px;
+	}
+	.icon img{
+		width: 2rem;
+	}
+	.cardPost {
+    	margin-left: 7rem;
+    	width: 450px;
+    	border: none;
+    	line-height: 20px;
+	}
+	.about .card-subtext, .servisTitle .fs-5,
+	.specialistTitle .fs-5, .doctorsTitle .fs-5,
+	.newsTitle .fs-5, .afishaInnerContent .fs-5{
+		font-size: 1rem !important;
+	}
+	.newsTitle h3, .about h3, .servisTitle h3,.specialistTitle h3,
+	.doctorsTitle h3, .afishaInnerContent h3{
+		font-size: calc(1.2rem + .7vw)!important;
+	}
+	.about .cardText{
+		font-size: 14px;
+
+	}
+	.aboutImg {
+    margin-left: 0rem;
+	}
+	.aboutImg img{
+    	width: 700px;
+	}
+	.btnCollap .ms-4{
+		margin: 0 ;
+		width: 16.66666667%;
+	}
+	.servisInner .col-3{
+		width: 14px;
+		margin-left: 1rem;
+
+	}
+	.accourdion-img > img {
+    	width: 30px;
+	}
+	.btnCollap > .card-head .fs-5{
+		font-size: 1rem!important;
+	}
+	.viewAll{
+		width: 95px !important;
+		height: 40px !important;
+		font-size: 14px !important;
+	}
+	.card-head{
+		width: 95px;
+		height: 105px;
+	}
+	.accordionImg img{
+		width: 200px;
+	}
+	.servisInner .card-body{
+		border: none;
+	}
+	.show{
+		width: 440px;
+		margin-left: 4rem;
+	}
+	.accordionText > p {
+    	width: 520px;
+    	margin-top: 0.5rem;
+    	font-size: 14px;
+	}
+	.specialistMain > .row > button{
+		padding: 4rem 0rem 1rem;
+	}
+	.abonimentBg {
+	    height: 300px;
+	    background-size: 999px;
+	    margin: 5rem 0;
+	}	
+	.appointmentText, .appointmentForm {
+    	font-size: 14px;
+    	width: 300px;
+	}
+	.appointmentText > h3 {
+	    letter-spacing: 1px;
+	    font-size: 22px;
+	    font-weight: 700;
+	}
+	.appointmentForm .col-5 {
+    	width: 100%!important;
+	}
+	.form-control {
+	    width: 400px !important;
+	    height: 40px !important;
+	}
+	.abonimentInner {
+    	width: 700px;
+    	position: relative;
+    	top: 6rem;
+    	left: 0;
+    	margin: 0;
+	}
+	.appointmentForm{
+		margin-left: -3rem !important;
+	}
+	.aboniment input, .form-select, textarea {
+	    width: 400px;
+	    height: 40px;
+	    padding: 4px 10px;
+    	font-size: 16px;
+	}
+	textarea,.bookAppointment textarea, .contactTouch textarea {
+		height: 80px !important;
+	}
+	.d-grid {
+    	width: 400px !important;
+	}.d-grid .btn{
+		height: 40px;
+	}
+	.doctors .carousel-inner .card, .doctorsCard .card{
+		width: 12rem;
+	}
+	.carousel-inner{
+		height: 500px;
+	}
+	.carousel-item{
+		width: 600px;
+		margin-left: 0;
+	}
+	.newsCarousel .card {
+    	width: 300px;
+    	height: 105px;
+    	padding: 0.2rem;
+	}
+	.newsCarousel .card .card-body{
+		padding: 1px 2px;
+	}
+	.newsCarousel .cardTitle {
+    	font-size: 10px;
+    	margin-bottom: 2px;
+	}
+	.newsCarousel .fs-6, .newsCarousel .card-text{
+		font-size: 12px !important;
+		margin-bottom: 2px;
+	}
+	.newsCarousel{
+		height: 350px;
+	}
+	.contactInner .card-body{
+	    width: 10rem;
+    	height: 12rem;
+    	padding: 4rem 1rem 2rem;
+	}
+	.contactInner .card-title {
+    	margin: 0.3rem 0;
+    	font-weight: 600;
+    	font-size: 16px;
+	}
+	.contactInner .card-text {
+    	margin: 0.3rem 0;
+    	font-size: 12px;
+	}
+	.Emergency, .Location, .Email, .Clock {
+		background-position-x: 1rem;
+		background-position-y: 1rem;
+	}
+	.footer li, a{
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+	.footer h5{
+		margin-bottom: 1rem !important;
+	}
+	.footer button{
+		text-align: left;
+		padding: 8px 10px;
+	}
+	.telega {
+    	background-position-x: 8.5rem;
+    	background-position-y: 1rem;
+	}
+	.Citata{
+		top: 6rem;
+	}
+	.Citata img{
+		width: 30px;
+	}
+	.Citata h2{
+		font-size: 20px;
+	}
+	.bgSlide{
+		background-size: 970px;
+	}
+	.slideInnerTitle {
+    	padding: 4rem 2rem;
+	}
+	.slideAbout, .slideServices, .slideCheckup, .slideContact, .slideAppointment, .slideNews, .slideNewsPost {
+    	background-size: 780px;
+    	background-position-y: 0rem;
+    	height: 180px;
+	}
+	.breadcrumb{
+		margin-bottom: 0;
+	}
+	.slideInnerTitle {
+    	padding: 4rem 1rem;
+	}
+	.afishaInnerContent .d-flex{
+		display: block;
+	}
+	.afishaInnerContent .mb-4{
+		margin-bottom: 1rem!important;
+	}
+	.afishaInnerContent p{
+		margin-bottom: 0.5rem;
+		font-size: 14px;
+	}
+	.afishaImg img{
+		width: 300px;
+	}	
+	.afishaInner{
+		left: 0;
+		width: 680px;
+		height: 400px;
+	}
+	.afisha .mt-5{
+		margin-top: 1.5rem !important;
+	}
+	.afisha ul{
+		padding: 0;
+		margin: 0;
+	}
+	.cardServices{
+		margin-left: 1rem;
+		margin-top: 1rem;
+	}
+	.cardServices .me-5{
+		margin-right: 1rem;
+	}
+	.cardServicesBlock{
+		width: 200px;
+
+	}
+	.cardServicesBlock > .card-body{
+		padding: 0.5rem 1rem;
+	}
+	.cardServicesBlock .card-text{
+		font-size: 12px;
+	}
+	.cardServicesBlock .imgCheckup {
+    	top: 10rem;
+    	right: 3px;
+	}
+	.cardServicesBlock .imgCheckup img{
+    	width: 60px;
+	}
+	.accordionCheckupText .fs-1 {
+    	font-size: calc(1.1rem + 1.1vw) !important;
+	}
+	.accordionCheckupImg img{
+		width: 450px;
+		height: 250px;
+	}
+	.accordionCheckupText ul{
+		padding-left: 20px;
+	}
+	.accordionCheckupText p {
+    	margin: 0.3rem 1rem;
+    	font-size: 14px;
+	}
+	.checkup .show {
+    	width: 400px;
+    	margin-left: 2rem;
+	}
+	.servisTitle {
+    	margin-top: 2rem;
+	}
+	.doctorsCard {
+    	margin-left: 2rem;
+	}
+	.newsFeedImg img, .newsPostImg img {
+    	width: 700px;
+    	height: 400px;
+	}
+	.newsFeedCard h5 {
+    	font-size: 30px;
+    	font-weight: 700;
+    	margin: 0.5rem 0;
+	}
+	.newsFeedCard .card-text {
+    	font-size: 16px;
+	}
+	.newsFeedCard > .card-body{
+		width: 700px;
+	}
+	.newsFeed > .d-flex{
+		flex-direction: column-reverse;
+	}
+	.newsFeedInfo{
+		padding: 0;
+	}
+	.newsFeedMenu {
+    	width: 440px;
+	}
+	.newsFeedMenu img{
+		width: 200px;
+	}
+	.newsFeedMenu .card{
+		max-width: 360px!important;
+		height: 80px;
+	}
+	.newsFeedMenu .fs-6{
+		font-size: 20px!important;
+	}
+	.newsFeedMenu .card-body {
+    	padding: 0.2rem 1.2rem;
+    	height: 40px;
+    	width: 340px;
+	}
+	.newsFeedMenu .card-body .card-text {
+    	font-size: 16px;
+    }.newsFeedCategory{
+    	display: none;
+    }
+    .appointment .col-5 {
+    	width: 100%;
+	}
+	.bookAppointment > .d-flex{
+		display: block !important;
+	}
+	.bookAppointment .form-control, .contactTouch .form-control,
+	.bookAppointment .form-select, .contactTouch .form-select,
+	.bookAppointment textarea, .contactTouch textarea,
+	.bookAppointment .d-grid, .contactTouch .d-grid{
+    	width: 100% !important;
+    	height: 60px ;
+	}
+	.map iframe{
+		width: 700px !important;
+	}
+	.contactTouch > .d-flex{
+		flex-wrap: wrap !important;
+	}
+	.contactTouch .contactForms{
+		padding: 0;
+		width: 700px;
+
+	}
+	.contactTouch form .d-flex{
+		display: block !important;
+		
+	}
+	.contactTouch form .col-5{
+		width: 100%;
+	}
+	.contactBlog{
+		margin-left: 10rem;
+	}
+}
+@media(max-width: 750px){
+	.headerContact > .col-3 > a > img{
+		width: 24px;
+
+	}
+	.headerContact > .col-3 > a > div > p {
+	    font-size: 10px;
+	    padding: 0;
+	    margin: 0 0.4rem;
+	}
+	.sliderDocBg {
+    	height: 240px;
+    	background-size: 600px;
+ 	   	background-position-x: 0rem;
+	}
+	.card0, .card1, .card2 {
+    	padding: 4px 22px;
+    	width: 80px;
+	}
+	.sliderDocCard > a > .me-4{
+		display: none;
+	}
+	.sliderDocCard {
+    	left: 8rem;
+	}
+	.cardPost {
+    	margin-left: 2rem;
+	}
+	.aboutImg img {
+    	width: 500px;
+	}
+	.servisInner .col-3 {
+	    display: flex;
+	    width: 100%;
+	    margin-left: 0rem;
+    	flex-direction: row;
+	}
+	.btnCollap > .card-head .fs-5 {
+    	font-size: 12px!important;
+	}
+	.card-head .btn{
+		width: 90px;
+    	height: 90px ;
+	}
+	.viewAll{
+		margin-top: -3rem !important;
+		width: 90px !important;
+		height: 60px !important;
+		padding-top: 1rem;
+		font-weight: 600;
+	}
+	.show {
+    	width: 410px;
+    	margin-left: 2rem;
+	}
+	.accordionImg img {
+    	width: 160px;
+	}
+	.accordionText > p {
+    	width: 400px;
+    	margin-top: 0.2rem;
+    	font-size: 12px;
+	}
+	.specialistMain > .row > button > p {
+    	font-size: 12px;
+	}
+	.appointmentText, .appointmentForm {
+    	font-size: 16px;
+    	width: 100%;
+    	max-width: 410px;
+	}
+	.abonimentInner >.appointmentForm{
+		display: none;
+	}
+	.carousel-inner {
+    	height: 420px; 
+	}
+	.doctors .carousel-inner .card, .doctorsCard .card {
+    	width: 8rem;
+	}
+	.doctors .carousel-inner .card h5, .doctorsCard .card h5{
+		font-size: 14px;
+	}
+	.newsCarousel .card {
+    	width: 410px;
+    	height: 140px;
+    }
+    .newsCarousel .card .col-md-8{
+    	width: 65.5555%;
+    	margin-left: 0.2rem;
+    }
+	.news .carousel-item > .d-flex > .card:last-child{
+		display: none;
+	}
+	.newsCarousel .cardTitle {
+   	 	font-size: 14px;
+    	margin-bottom: 8px;
+	}
+	.newsCarousel .fs-6, .newsCarousel .card-text {
+    	font-size: 16px !important;
+    	margin-bottom: 4px;
+	}
+	.contactInner .d-flex{
+		flex-wrap: wrap;
+	}
+	.contactInner .card-body {
+	    width: 10rem;
+	    height: 12rem;
+	    margin: 1rem 1rem;
+	    padding: 4rem 1rem 1rem;
+	}
+	.contactInner .card{
+		border: none;
+	}
+	.footer h5 {
+    	margin-bottom: 0.5rem !important;
+    	font-size: 14px;
+	}
+	.footer h2{
+		font-size: 16px;
+	}
+	.footer p{
+		font-size: 12px;
+	}
+	.footer ul > li > a {
+    	font-size: 12px;
+	}
+	.footer .social{
+		position: relative;
+		bottom: 0.5rem;
+	}
+	.telega p{
+		display: none;
+	}
+	.telega {
+    	background-position-x: 1.3rem;
+    	background-position-y: 1.2rem;
+    	padding: 2rem!important;
+    	border-radius: 50%;
+	}
+	.newsTitle h3, .about h3, .servisTitle h3, .specialistTitle h3, .doctorsTitle h3, .afishaInnerContent h3 {
+    	font-size: calc(0.9rem + .3vw)!important;
+	}
+	.about .card-subtext, .servisTitle .fs-5, .specialistTitle .fs-5, .doctorsTitle .fs-5, .newsTitle .fs-5, .afishaInnerContent .fs-5 {
+    	font-size: 0.8rem !important;
+	}
+	.afishaInner {
+    	width: 490px;
+   	 	height: 240px;
+	}
+	.afisha .mt-5 {
+    	margin-top: 0rem !important;
+	}
+	.circle:before {
+    	padding: 0px 7px;
+	}
+	.afishaInnerContent p {
+    	margin-bottom: 0.5rem;
+    	font-size: 10px;
+	}
+	.afishaImg img {
+    	width: 200px;
+	}
+	.afishaInnerContent ul{
+		margin-right: 1rem;
+	}
+	.afishaInnerContent ul .fs-6, .accordionCheckupText  ul .fs-6{
+		font-size: 0.7rem !important;
+	}
+	.bgSlide {
+    	background-size: 600px;
+    	height: 320px;
+	}
+	.Citata img {
+    	width: 24px;
+	}
+	.Citata h2 {
+    	font-size: 14px;
+	}
+	.Citata {
+    	top: 3.2rem;
+	}
+	.cardServices .col-3:last-child{
+		display: none;
+	}
+	.cardServicesBlock {
+    	width: 200px;
+	}
+	.cardServices .me-5 {
+    	margin-right: 6rem !important;
+	}
+	.cardServicesBlock .imgCheckup img {
+    	width: 40px;
+	}
+	.cardServicesBlock .imgCheckup {
+    	top: 10.5rem;
+    	right: 8px;
+	}
+	.cardServicesBlock .card-text {
+    	font-size: 10px;
+	}
+	.servisInner .card-head {
+    	width: 140px;
+    	height: 105px;
+	}
+	.servisInner .btn-group-vertical {
+    	flex-direction: inherit!important;
+    	align-items: center !important;
+    	justify-content: center;
+    	flex-wrap: wrap;
+	}
+	.servisInner .col-2{
+		width: 100%;
+	}
+	.card-head .btn {
+    	width: 100px;
+    	height: 100px;
+	}
+	.accordionCheckupImg img {
+    	width: 280px;
+    	height: 180px;
+	}
+	.accordionCheckupText .fs-1 {
+    	font-size: calc(0.8rem + .7vw) !important;
+	}
+	.accordionCheckupText p {
+       	font-size: 12px;
+	}
+	.slideInnerTitle {
+    	padding: 3rem 1rem;
+	}
+	.scheduleInner .dash {
+    	width: 2rem;
+    	left: 9rem;
+	}
+	.map iframe {
+    	width: 480px !important;
+	}
+	.newsFeedMenu {
+    	display: none;
+	}
+	.newsFeedImg img, .newsPostImg img {
+    	width: 480px;
+    	height: 280px;
+	}
+	.newsFeedCard h5 {
+    	font-size: 26px;
+    	margin: 0.5rem 0.5rem;
+	}
+	.newsFeedCard > .card-body {
+    	width: 480px;
+	}
+	.newsFeedCard .card-text {
+    	font-size: 14px;
+	}
+	.newsPostText {
+    	width: 480px;
+    	font-size: 12px;
+	}
+}

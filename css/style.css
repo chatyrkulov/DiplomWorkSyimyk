@@ -1,0 +1,664 @@
+.navbar-light .navbar-toggler {
+    	color: rgb(255 255 255 / 100%);
+    	border-color: rgba(255, 255, 255, 1);
+    }
+.logo > a {
+	text-transform: uppercase;
+	color: #159EEC;
+	font-weight: 600;
+	font-size: 28px;
+	text-decoration: none;
+	font-size: 36px;
+}
+.logo > a  span{
+	color: #1F2B6C;
+	text-decoration: none;
+}
+.nav-link{
+	color: white !important;
+	font-weight: 400;
+}
+.bg-bluedark{
+	background-color: #1F2B6C;
+}
+.clr-bluedark{
+	color: #1F2B6C;
+}
+.clr-skyblue{
+	color: #159EEC;
+}
+.clr{
+	color: #BFD2F8;
+}
+
+.search{
+	border-radius: 20px;
+
+}
+.logoMini{
+	display: none;
+}
+.btnApp{
+	border-radius: 20px;
+	background-color: #BFD2F8;
+	border: #BFD2F8;
+	padding-left: 2rem;
+    padding-right: 2rem;
+    color: #1F2B6C;
+}
+.btnApp:hover{
+	transition: 1.2s ease;
+	background-color: #159EEC;
+	color: white !important;
+}
+.phone a, .clock a, .map a{
+	width: 225px;
+	height: 40px;
+	align-items: center;
+	text-decoration: none;
+}
+.navbar-dark{
+	background-color: #1F2B6C !important;
+}
+.topHeader{
+	position: relative;
+}
+.phone p, .clock p, .map p{
+	padding: 4px 0 0;
+	margin: 0 1rem;
+}
+.subText{
+	color: #159EEC;
+	font-size: 10px;
+}
+.supText {
+	color: #1F2B6C;
+	font-size: 12px;
+}
+.card0, .card1, .card2{
+	background-color: #1F2B6C;
+	padding: 14px 10px;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+}
+.card0:hover, .card1:hover, .card2:hover{
+	opacity: 0.8;
+	color: #159EEC;
+	transition: 1.2s ease;
+}
+.card2:hover{
+	color: #BFD2F8 ;
+}
+.card0:hover{
+	color: #ccc ;
+}
+a{
+text-decoration: none;
+}
+.sliderDocBg{
+	background-image: url('../images/bgHome.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-size: auto;
+}
+.card1{
+	background-color: #BFD2F8;
+	color: #1F2B6C;
+}
+.card2{
+	background-color: #159EEC;
+}
+.supTextSlider p{
+	color: #159EEC;
+	font-size: 24px;
+	margin: 0;
+	font-weight: 600;
+
+}
+.sliderDocTitle {
+	position: relative;
+    top: 8rem;
+    left: 10rem;
+}
+.textSlider h2{
+	font-size: 46px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #1F2B6C;
+    letter-spacing: 0.15rem;
+}
+.btnSlider{
+	padding: 0.5rem 1.5rem;
+	border-radius: 40px;
+	font-size: 22px;
+	font-weight: 500;
+	margin-top: 2rem;
+}
+.sliderDocCard{
+	position: relative;
+    left: 10rem;
+    top: -2.5rem;
+}
+.cardPost{
+	margin-left: 20rem;
+	width: 660px;
+	border: none; 
+	line-height: 26px;
+}
+.aboutImg{
+	margin-left: 10rem;
+}
+.card-link:hover{
+	color: #1F2B6C;
+	transition: 1.2s ease;
+}
+.servisTitle{
+	margin-top: 6rem;
+}
+.accourdion-img > img{
+	width: 44px;
+}
+li{
+	list-style: none;
+}
+.card-head{
+	width: 150px;
+}
+.circle:before{
+	content: "";
+	position: relative;
+	left: -6px;
+	border-radius: 50%;
+	background-color: #159EEC;
+	padding: 0px 10px;
+}
+.show{
+	width: 850px;
+	border: none;
+	transition: 1.2s ease;
+}
+.accordionText > p{
+	width: 400px;
+	margin-top: 1.5rem;
+}
+.specialistMain > .row > div >p{
+	margin: 0;
+	padding: 0;
+}
+.specialistMain > .row > button{
+	background-image: url('../images/heartPuls.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 6rem 1rem 3rem;
+	border: 1px solid #BFD2F8;
+	cursor: pointer;
+	background-color: white;
+}	
+.specialistMain > .row > button > p{
+	margin-top: 1.2rem;
+	margin-bottom: 0;
+}
+.specialistMain > .row > button:hover{
+	border-radius: 10px;
+	border: 1px solid #1F2B6C;
+	background-color: #1F2B6C;
+	color: #BFD2F8;
+	transition: 1.2s ease;
+	background-image: url('../images/heartPuls2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 2px;
+}
+
+.abonimentBg{
+	background-image: url('../images/bgForms.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 580px;
+}
+.appointmentText,
+.appointmentForm{
+    font-size: 18px;
+	width: 400px;
+}
+.appointmentForm{
+	position: relative;
+    top: -10rem;
+    left: 3rem;
+}
+.aboniment > .col {
+	width: 400px;
+} 
+.appointmentText > h3{
+	letter-spacing: 2px;
+	font-size: 32px;
+	font-weight: 700;
+}
+.abonimentInner{
+	width: 1100px;
+	position: relative;
+	top: 14rem;
+	left: 10rem;
+
+}
+.aboniment input, 
+.form-select, 
+textarea{
+	background-color: #1F2B6C;
+    
+    border: 1px solid #BFD2F8;
+    color: #fff;
+    width: 330px;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+ textarea{
+	width: 660px;
+	height: 190px;
+	resize: none;
+}
+textarea:focus-visible,
+.d-grid .btn:focus-visible{
+	outline: none;
+}
+.aboniment .col{
+	margin: 0;
+	padding: 0;
+	width: 320px;
+}
+.form-control:focus,
+.form-select:focus,
+.d-grid .btn:focus,
+.btn:focus{
+	border-color: none;
+	box-shadow: none;
+
+}
+.contactForms .form-control{
+	height: 65px !important;
+}
+.form-control{
+	background-color: #1F2B6C !important;
+	width: 330px !important;
+	height: 50px !important;
+	margin: 0 !important;
+	line-height: none !important;
+}
+.subject{
+	width: 100%!important;
+}
+.card-head .btn:focus{
+	box-shadow: 0 0 0 0.25rem rgb(31 43 108 / 100%);
+	background-color: #1F2B6C;
+	color: white;
+	transition: 1.2s ease;
+}
+.collapsed{
+	color: black;
+}
+.viewAll{
+	height: 50px !important	;
+	width: 130px !important;
+}
+.appointmentForm .col-5{
+	width: 45.666667% !important;
+}
+.d-grid{
+	width: 660px !important;
+	margin-top: -0.38rem;
+}
+.d-grid .btn{
+	background-color: #BFD2F8;
+    color: #1F2B6C;
+    height: 50px;
+    border-color: #BFD2F8;
+}
+.carousel-inner{
+	height: 600px;
+	padding: 2rem;
+}
+.carousel-inner .card,
+.doctorsCard .card{
+	width: 18rem;
+	background-color: #BFD2F8;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.carousel-inner .card .btn,
+.doctorsCard .card .btn{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+.carousel-inner .card .btn:hover,
+.doctorsCard .card .btn:hover{
+	transition: 1.2s ease;
+	background-color: #159EEC;
+	color: white;
+}
+.carousel-item{
+	margin-left: 10rem;
+	width: 990px;
+
+}
+.carousel-indicators [data-bs-target]{
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #BFD2F8;
+}
+.carousel-indicators .active{
+	opacity: 2;
+	background-color: #1F2B6C;
+}
+.newsCarousel{
+	height: 440px;
+	padding: 2rem;
+}
+.newsCarousel .card{
+	width: 470px;
+	height: 150px;
+	background-color: white;
+	margin-right: 1rem;
+}
+.newsCarousel .card-text{
+	font-size: 18px;
+}
+.cardTitle{
+	font-size: 14px;
+}
+.contactInner .card-text{
+	margin: 0.5rem 0;
+}
+.contactInner .card-title{
+	margin: 0.5rem 0;
+    
+    font-weight: 800;
+}
+.contactInner .card-body{
+	width: 16rem;
+	height: 14rem;
+	padding: 5rem 2rem 2rem;
+	background-color: #BFD2F8;
+	border-color: #BFD2F8;
+	color: #1F2B6C;
+}
+.Emergency, .Location, .Email, .Clock{
+	background-image: url("../images/tel.png");
+	background-repeat: no-repeat;
+	background-position-x: 2rem;
+	background-position-y: 2rem;
+
+
+}
+.Location{
+	background-image: url('../images/map.png');
+}
+.Email{
+	background-image: url('../images/cover.png');
+}
+.Clock{
+	background-image: url('../images/clock.png');
+}
+.Location:hover{
+	background-image: url('../images/mapWhite.png');
+}
+.Email:hover{
+	background-image: url('../images/coverWhite.png');
+}
+.Clock:hover{
+	background-image: url('../images/clockWhite.png');
+}
+
+.Emergency:hover{
+	background-image: url("../images/telWhite.png");
+}
+.contactInner .Emergency:hover{
+	background-image: url("../images/telWhite.png");
+}
+.contactInner .card-body:hover{
+	background-color: #1F2B6C;
+	color: #BFD2F8;
+	transition: 1.2s ease;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.footer ul{
+	margin: 0;
+	padding: 0;
+}
+.footer ul > li{
+	margin-bottom: 4px;
+}
+.footer ul > li > a{
+	text-decoration: none;
+	color: #fff;
+}
+.telega{
+	background-image: url("../images/telega.png");
+	background-repeat: no-repeat;
+	background-position-x: 13rem;
+	background-position-y: 0.5rem;
+	background-color: #BFD2F8;
+	padding: 0.5rem 4rem 0.5rem 0.5rem;
+}
+.hr{
+	border: 1px solid #BFD2F8;
+	width: 100%;
+}
+
+.slideAbout, .slideServices, .slideCheckup, .slideContact, .slideAppointment,.slideNews, .slideNewsPost{
+	background-image: url("../images/bgAbout.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 250px;
+}
+.slideNewsPost{
+	background-image: url("../images/bgPost.png");
+}
+.slideNews{
+	background-image: url("../images/bgNews.png");
+}
+.slideAppointment{
+	background-image: url("../images/bgAppointment.png");
+}
+.slideContact{
+	background-image: url("../images/bgContact.png");
+}
+.slideServices{
+	background-image: url("../images/bgServices.png");
+}
+.slideCheckup{
+	background-image: url("../images/bgCheckup.png");
+}
+
+.slideInnerTitle{
+	padding: 6rem 10rem;
+}
+.breadcrumb-item.active{
+	color: #1F2B6C;
+	font-weight: bolder;
+}
+.afishaInner{
+	width: 990px;
+	height: 510px;
+	position: relative;
+	left: 10rem;
+
+}
+.afishaTitle{
+	font-size: 48px;
+}
+.Citata{
+	position: relative;
+	top: 4rem;
+	padding: 2rem 6rem;
+}
+.bgSlide{
+	background-image: url("../images/afishaSlide.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 440px;
+}
+.cardServices{
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	margin-left: 8rem;
+}
+.cardServicesBlock{
+	width: 317px;
+	position: relative;
+	border: 1px solid #BFD2F8;
+}
+.cardServicesBlock .imgCheckup{
+	position: absolute;
+	top: 16rem;
+    right: 1rem;
+}
+.doctorsCard .card{
+	width: 22rem;
+	margin-top: 2rem;
+}
+.doctorsCard{
+	margin-left: 8rem;
+}
+.accordionCheckupImg img{
+	width: 720px;
+	height: 420px;
+}
+.accordionCheckupText p{
+	margin: 0.2rem 4rem 0;
+	color: #1F2B6C;
+	font-weight: 400;
+
+}
+.checkup .show{
+	width: 1000px;
+}
+.checkup .card{
+	border: none;
+}
+.servis .card-head{
+	margin-bottom: 0.3rem;
+}
+.collapsed{
+	transition: 1.2s ease;
+}
+.contactBlog,
+.contactForms{
+	padding: 1.5rem;
+}
+.appointment .col-5{
+	width: 48.2%;
+}
+.scheduleInner ul li{
+	padding: 0.5rem 2rem !important;
+	align-items: center;
+	position: relative;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 600;
+}
+.scheduleInner{
+	border-radius: 10px;
+	padding: 2rem;
+}
+.scheduleInner .dash{
+	border: 1px solid #BFD2F8;
+    width: 4rem;
+    height: 2px;
+    position: absolute;
+    top: 1.3rem;
+    left: 13rem;
+}
+.lineSchedule{
+	border: 1px solid v;
+	height: 2px;
+	width: 70%;
+    margin-left: 5rem;
+    border-radius: 50%;
+}
+.scheduleFooterImg img{
+	width: 4rem;
+	margin-right: 1rem;
+}
+.text-muted p{
+	margin: 0;
+	padding-left: 0.3rem;
+}
+.newsFeedImg img, .newsPostImg img{
+	width: 800px;
+	height: 550px;
+}
+.newsFeedInfo{
+	border: none;
+	padding: 2rem;
+}
+.newsFeedCard{
+	width: 800px;
+	border: none;
+	margin-top: 1rem;
+}
+.newsFeedCard h5{
+	font-size: 38px;
+	font-weight: 700;
+	margin: 1rem 0;
+}
+.newsFeedCard .card-text{
+	font-size: 20px;
+}
+.newsFeedMenu .card{
+	max-width: 300px;
+	height: 70px;
+	padding: 0.2rem;
+	border: none;
+}
+.newsFeedMenu .card:hover{
+	background-color: #1F2B6C;
+	color: #BFD2F8;
+	transition: 1.2s ease;
+}
+.newsFeedMenuTitle{
+	font-size: 24px;
+	font-weight: 800;
+	margin: 1rem 0;
+}
+.newsFeedMenu .card-body{
+	padding: 0.2rem;
+}
+.newsFeedMenu .card-body .card-title{
+	margin-bottom: 0.2rem !important;
+	font-size: 14px;
+}
+.newsFeedMenu .card-body .card-text{
+	font-size: 13px;
+}
+.newsFeedMenu{
+	padding: 0.5rem;
+	border: 1px solid #BFD2F8;
+	border-radius: 10px;
+}
+.newsFeedCategory .badge{
+	background-color: #159EEC;
+	border-radius: 50%;
+}
+.newsFeedCategory button{
+	width: 300px;
+
+}
+.newsFeedCategory{
+	border: 1px solid #BFD2F8;
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+.newsPostText{
+	width: 800px;
+}
